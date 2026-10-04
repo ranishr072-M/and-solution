@@ -1,0 +1,992 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Services | APPLY NOW DOCUMENTS (AND)</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- Services CSS -->
+    <link rel="stylesheet" href="services.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="index.html" class="logo">
+            <div class="logo-icon">
+                <i class="fa-solid fa-file-circle-check"></i>
+            </div>
+
+            <div class="logo-text">
+                <strong>APPLY NOW</strong>
+                <span>DOCUMENTS (AND)</span>
+            </div>
+        </a>
+
+
+        <button class="menu-toggle" onclick="toggleServiceMenu()">
+            <i class="fa-solid fa-bars"></i>
+        </button>
+
+
+        <nav class="nav-menu" id="navMenu">
+
+            <a href="index.html">
+                <i class="fa-solid fa-house"></i>
+                Home
+            </a>
+
+            <a href="services.html" class="active">
+                <i class="fa-solid fa-layer-group"></i>
+                Services
+            </a>
+
+            <a href="document-checker.html">
+                <i class="fa-solid fa-file-circle-question"></i>
+                Documents
+            </a>
+
+           
+
+            <a href="index.html#why-us">
+                <i class="fa-solid fa-star"></i>
+                Why AND
+            </a>
+
+            <a href="index.html#contact">
+                <i class="fa-solid fa-phone"></i>
+                Contact
+            </a>
+
+        </nav>
+
+    </div>
+
+</header>
+
+
+
+<!-- ================= HERO ================= -->
+
+<section class="services-hero">
+
+    <div class="hero-content">
+
+        <span class="hero-badge">
+            <i class="fa-solid fa-sparkles"></i>
+            50+ Digital & Online Services
+        </span>
+
+        <h1>
+            Everything You Need,
+            <span>All In One Place.</span>
+        </h1>
+
+        <p>
+            From government applications to certificates, registrations,
+            exams, bills, photo services and more — get your digital work
+            done quickly and easily at APPLY NOW DOCUMENTS.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="index.html#contact" class="primary-btn">
+                <i class="fa-brands fa-whatsapp"></i>
+                Enquire Now
+            </a>
+
+            <a href="tel:7867976169" class="secondary-btn">
+                <i class="fa-solid fa-phone"></i>
+                Call Now
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="hero-visual">
+
+        <div class="floating-card card-one">
+            <i class="fa-solid fa-id-card"></i>
+            <span>Government Services</span>
+        </div>
+
+        <div class="floating-card card-two">
+            <i class="fa-solid fa-file-lines"></i>
+            <span>Certificates</span>
+        </div>
+
+        <div class="floating-card card-three">
+            <i class="fa-solid fa-graduation-cap"></i>
+            <span>Exam Services</span>
+        </div>
+
+        <div class="hero-circle">
+            <i class="fa-solid fa-building-columns"></i>
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= STATS ================= -->
+
+<section class="service-stats">
+
+    <div class="stat-box">
+        <i class="fa-solid fa-list-check"></i>
+        <strong>50+</strong>
+        <span>Services</span>
+    </div>
+
+    <div class="stat-box">
+        <i class="fa-solid fa-layer-group"></i>
+        <strong>9</strong>
+        <span>Categories</span>
+    </div>
+
+    <div class="stat-box">
+        <i class="fa-solid fa-clock"></i>
+        <strong>12+</strong>
+        <span>Hours Available</span>
+    </div>
+
+    <div class="stat-box">
+        <i class="fa-solid fa-headset"></i>
+        <strong>1:1</strong>
+        <span>Customer Support</span>
+    </div>
+
+</section>
+
+
+
+<!-- ================= SERVICES INTRO ================= -->
+
+<section class="services-section">
+
+    <div class="section-heading">
+
+        <span>WHAT WE OFFER</span>
+
+        <h2>
+            Our Complete
+            <span>Service Collection</span>
+        </h2>
+
+        <p>
+            Choose the service you need and contact us for assistance.
+            We make your online and document-related work simple.
+        </p>
+
+    </div>
+
+
+
+    <!-- ================= GOVERNMENT SERVICES ================= -->
+
+    <div class="service-category">
+
+        <div class="category-header">
+
+            <div class="category-icon">
+                <i class="fa-solid fa-landmark"></i>
+            </div>
+
+            <div>
+                <span>01</span>
+                <h2>Government Services</h2>
+                <p>Important government and online identity services.</p>
+            </div>
+
+        </div>
+
+
+        <div class="services-grid">
+
+            <div class="service-card" onclick="openService('Aadhaar Services')">
+                <i class="fa-solid fa-fingerprint"></i>
+                <h3>Aadhaar Services</h3>
+                <p>Aadhaar related online assistance and services.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+
+            <div class="service-card" onclick="openService('PAN Card Services')">
+                <i class="fa-solid fa-id-card"></i>
+                <h3>PAN Card</h3>
+                <p>PAN application, correction and related services.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+
+            <div class="service-card" onclick="openService('Passport Services')">
+                <i class="fa-solid fa-passport"></i>
+                <h3>Passport</h3>
+                <p>Passport application and online assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+
+            <div class="service-card" onclick="openService('Driving Licence Services')">
+                <i class="fa-solid fa-car"></i>
+                <h3>Driving Licence</h3>
+                <p>Driving licence related online services.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+
+            <div class="service-card" onclick="openService('Voter ID Services')">
+                <i class="fa-solid fa-person-circle-check"></i>
+                <h3>Voter ID</h3>
+                <p>Voter registration and related assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+
+            <div class="service-card" onclick="openService('E-Shram Card')">
+                <i class="fa-solid fa-id-badge"></i>
+                <h3>E-Shram Card</h3>
+                <p>E-Shram registration and online assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+
+            <div class="service-card" onclick="openService('Ration Card Services')">
+                <i class="fa-solid fa-address-card"></i>
+                <h3>Ration Card</h3>
+                <p>Ration card related online services.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+
+            <div class="service-card" onclick="openService('FSSAI License')">
+                <i class="fa-solid fa-utensils"></i>
+                <h3>FSSAI License</h3>
+                <p>FSSAI registration and application assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+
+            <div class="service-card" onclick="openService('Zomato and Swiggy Onboarding')">
+                <i class="fa-solid fa-store"></i>
+                <h3>Zomato & Swiggy Onboarding</h3>
+                <p>Restaurant and business onboarding assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= REVENUE SERVICES ================= -->
+
+    <div class="service-category">
+
+        <div class="category-header">
+
+            <div class="category-icon">
+                <i class="fa-solid fa-file-contract"></i>
+            </div>
+
+            <div>
+                <span>02</span>
+                <h2>Revenue Certificate Services</h2>
+                <p>Certificate application and online assistance.</p>
+            </div>
+
+        </div>
+
+
+        <div class="services-grid">
+
+            <div class="service-card" onclick="openService('Community Certificate')">
+                <i class="fa-solid fa-users"></i>
+                <h3>Community Certificate</h3>
+                <p>Community certificate application assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('Income Certificate')">
+                <i class="fa-solid fa-money-bill-wave"></i>
+                <h3>Income Certificate</h3>
+                <p>Income certificate application assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('Nativity Certificate')">
+                <i class="fa-solid fa-house"></i>
+                <h3>Nativity Certificate</h3>
+                <p>Nativity certificate application assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('OBC Certificate')">
+                <i class="fa-solid fa-certificate"></i>
+                <h3>OBC Certificate</h3>
+                <p>OBC certificate related assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('Patm Certificate')">
+                <i class="fa-solid fa-file"></i>
+                <h3>Patm Certificate</h3>
+                <p>Certificate application assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('First Graduate Certificate')">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h3>First Graduate</h3>
+                <p>First graduate certificate assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('Legal Heir Certificate')">
+                <i class="fa-solid fa-people-roof"></i>
+                <h3>Legal Heir</h3>
+                <p>Legal heir certificate assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('Unmarried Certificate')">
+                <i class="fa-solid fa-file-circle-check"></i>
+                <h3>Unmarried Certificate</h3>
+                <p>Unmarried certificate application assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('Intercaste Certificate')">
+                <i class="fa-solid fa-people-arrows"></i>
+                <h3>Intercaste Certificate</h3>
+                <p>Intercaste certificate assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= REGISTRATION ================= -->
+
+    <div class="service-category">
+
+        <div class="category-header">
+
+            <div class="category-icon">
+                <i class="fa-solid fa-registered"></i>
+            </div>
+
+            <div>
+                <span>03</span>
+                <h2>Registration Services</h2>
+                <p>Registration and land-related online services.</p>
+            </div>
+
+        </div>
+
+
+        <div class="services-grid">
+
+            <div class="service-card" onclick="openService('Marriage Registration')">
+                <i class="fa-solid fa-ring"></i>
+                <h3>Marriage Registration</h3>
+                <p>Marriage registration application assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('Patta Chitta')">
+                <i class="fa-solid fa-map"></i>
+                <h3>Patta / Chitta</h3>
+                <p>Patta and Chitta related online services.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('EC Villangam')">
+                <i class="fa-solid fa-file-signature"></i>
+                <h3>EC (Villangam)</h3>
+                <p>Encumbrance certificate assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('Land Surveyor Apply')">
+                <i class="fa-solid fa-ruler-combined"></i>
+                <h3>Land Surveyor Apply</h3>
+                <p>Land survey related application assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('Patta Name Transfer')">
+                <i class="fa-solid fa-file-pen"></i>
+                <h3>Patta Name Transfer</h3>
+                <p>Patta name transfer application assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= EXAM SERVICES ================= -->
+
+    <div class="service-category">
+
+        <div class="category-header">
+
+            <div class="category-icon">
+                <i class="fa-solid fa-graduation-cap"></i>
+            </div>
+
+            <div>
+                <span>04</span>
+                <h2>Exam Services</h2>
+                <p>Competitive and entrance examination applications.</p>
+            </div>
+
+        </div>
+
+
+        <div class="services-grid">
+
+            <div class="service-card" onclick="openService('TNPSC')">
+                <i class="fa-solid fa-building"></i>
+                <h3>TNPSC</h3>
+                <p>TNPSC exam application assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('Banking Exams')">
+                <i class="fa-solid fa-building-columns"></i>
+                <h3>Banking</h3>
+                <p>Banking examination applications.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('RRB')">
+                <i class="fa-solid fa-train"></i>
+                <h3>RRB</h3>
+                <p>Railway recruitment exam applications.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('SSC')">
+                <i class="fa-solid fa-user-tie"></i>
+                <h3>SSC</h3>
+                <p>SSC examination application assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('NEET')">
+                <i class="fa-solid fa-user-doctor"></i>
+                <h3>NEET</h3>
+                <p>NEET application assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('JEE')">
+                <i class="fa-solid fa-atom"></i>
+                <h3>JEE</h3>
+                <p>JEE application assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('UPSC')">
+                <i class="fa-solid fa-landmark"></i>
+                <h3>UPSC</h3>
+                <p>UPSC examination applications.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('Post Office Exams')">
+                <i class="fa-solid fa-envelope"></i>
+                <h3>Post Office</h3>
+                <p>Post office recruitment applications.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= EDUCATIONAL ================= -->
+
+    <div class="service-category">
+
+        <div class="category-header">
+
+            <div class="category-icon">
+                <i class="fa-solid fa-book-open"></i>
+            </div>
+
+            <div>
+                <span>05</span>
+                <h2>Educational Services</h2>
+                <p>Student-focused digital and documentation services.</p>
+            </div>
+
+        </div>
+
+
+        <div class="services-grid">
+
+            <div class="service-card" onclick="openService('Online Application')">
+                <i class="fa-solid fa-laptop"></i>
+                <h3>Online Application</h3>
+                <p>College, university and other online applications.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('Print Scan Xerox')">
+                <i class="fa-solid fa-print"></i>
+                <h3>Print / Scan / Xerox</h3>
+                <p>Fast document printing, scanning and xerox services.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('Resume Typing')">
+                <i class="fa-solid fa-file-pen"></i>
+                <h3>Resume / Typing</h3>
+                <p>Resume creation and typing assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('College Project Making')">
+                <i class="fa-solid fa-code"></i>
+                <h3>College Project Making</h3>
+                <p>Project documentation and development assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('Spiral Binding')">
+                <i class="fa-solid fa-book"></i>
+                <h3>Spiral Binding</h3>
+                <p>Professional project and document binding.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= BILLS & BOOKING ================= -->
+
+    <div class="service-category">
+
+        <div class="category-header">
+
+            <div class="category-icon">
+                <i class="fa-solid fa-wallet"></i>
+            </div>
+
+            <div>
+                <span>06</span>
+                <h2>Bills & Booking</h2>
+                <p>Recharge, bill payment and travel booking assistance.</p>
+            </div>
+
+        </div>
+
+
+        <div class="services-grid">
+
+            <div class="service-card" onclick="openService('Prepaid Recharge')">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+                <h3>Prepaid Recharge</h3>
+                <p>Quick mobile prepaid recharge assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('Postpaid Recharge')">
+                <i class="fa-solid fa-sim-card"></i>
+                <h3>Postpaid Recharge</h3>
+                <p>Postpaid bill payment assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('D2H Recharge')">
+                <i class="fa-solid fa-tv"></i>
+                <h3>D2H Dish Recharge</h3>
+                <p>DTH and dish recharge assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('EB Bill Payment')">
+                <i class="fa-solid fa-bolt"></i>
+                <h3>EB Bill</h3>
+                <p>Electricity bill payment assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('Flight and Railway Ticket Booking')">
+                <i class="fa-solid fa-plane"></i>
+                <h3>Flight & Railway Booking</h3>
+                <p>Travel ticket booking assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('Bus Ticket Booking')">
+                <i class="fa-solid fa-bus"></i>
+                <h3>Bus Ticket Booking</h3>
+                <p>Bus ticket booking assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= PHOTO SERVICES ================= -->
+
+    <div class="service-category">
+
+        <div class="category-header">
+
+            <div class="category-icon">
+                <i class="fa-solid fa-camera"></i>
+            </div>
+
+            <div>
+                <span>07</span>
+                <h2>Photo Services</h2>
+                <p>Professional photo sizing and document photo preparation.</p>
+            </div>
+
+        </div>
+
+
+        <div class="services-grid">
+
+            <div class="service-card" onclick="openService('Passport Size Photo')">
+                <i class="fa-solid fa-id-card"></i>
+                <h3>Passport Size Photo</h3>
+                <p>Passport size photo preparation and printing.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('Half Size Photo')">
+                <i class="fa-solid fa-image"></i>
+                <h3>Half Size Photo</h3>
+                <p>Half-size photo preparation and printing.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('Full Size Photo')">
+                <i class="fa-solid fa-image"></i>
+                <h3>Full Size Photo</h3>
+                <p>Full-size photo preparation and printing.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('A4 Size Photo')">
+                <i class="fa-solid fa-file-image"></i>
+                <h3>A4 Size Photo</h3>
+                <p>A4 photo layout preparation and printing.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= TEACHING ================= -->
+
+    <div class="service-category">
+
+        <div class="category-header">
+
+            <div class="category-icon">
+                <i class="fa-solid fa-chalkboard-user"></i>
+            </div>
+
+            <div>
+                <span>08</span>
+                <h2>Teaching & Training</h2>
+                <p>Basic computer and productivity software training.</p>
+            </div>
+
+        </div>
+
+
+        <div class="services-grid">
+
+            <div class="service-card" onclick="openService('Tally Training')">
+                <i class="fa-solid fa-calculator"></i>
+                <h3>Tally</h3>
+                <p>Basic Tally learning and practical training.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('MS Office Training')">
+                <i class="fa-brands fa-microsoft"></i>
+                <h3>MS Office</h3>
+                <p>Word, Excel and PowerPoint basic training.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('Google Sheets Training')">
+                <i class="fa-solid fa-table"></i>
+                <h3>Google Sheets</h3>
+                <p>Spreadsheet and online data management training.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- ================= TAXATION ================= -->
+
+    <div class="service-category">
+
+        <div class="category-header">
+
+            <div class="category-icon">
+                <i class="fa-solid fa-coins"></i>
+            </div>
+
+            <div>
+                <span>09</span>
+                <h2>Taxation Services</h2>
+                <p>Tax, GST and PF related online assistance.</p>
+            </div>
+
+        </div>
+
+
+        <div class="services-grid">
+
+            <div class="service-card" onclick="openService('GST Certificate')">
+                <i class="fa-solid fa-file-invoice-dollar"></i>
+                <h3>GST Certificate</h3>
+                <p>GST registration and application assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('Income Tax Filing')">
+                <i class="fa-solid fa-money-check-dollar"></i>
+                <h3>Income Tax File</h3>
+                <p>Income tax filing assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('PF Claim')">
+                <i class="fa-solid fa-hand-holding-dollar"></i>
+                <h3>PF Claim</h3>
+                <p>PF claim and online assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+            <div class="service-card" onclick="openService('PF Account Opening')">
+                <i class="fa-solid fa-user-plus"></i>
+                <h3>PF Account Open</h3>
+                <p>PF account related online assistance.</p>
+                <button>View Details <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- ================= CTA ================= -->
+
+<section class="service-cta">
+
+    <div>
+
+        <span>
+            <i class="fa-solid fa-headset"></i>
+            NEED HELP?
+        </span>
+
+        <h2>
+            Not Sure Which Service You Need?
+        </h2>
+
+        <p>
+            Don't worry. Contact us on WhatsApp and tell us what you need.
+            We'll guide you.
+        </p>
+
+    </div>
+
+
+    <a href="https://wa.me/917867976169?text=Hello%20AND%2C%20I%20need%20help%20with%20a%20service."
+       target="_blank"
+       class="whatsapp-btn">
+
+        <i class="fa-brands fa-whatsapp"></i>
+        Chat on WhatsApp
+
+    </a>
+
+</section>
+
+
+
+<!-- ================= SERVICE MODAL ================= -->
+
+<div class="service-modal" id="serviceModal">
+
+    <div class="modal-box">
+
+        <button class="modal-close" onclick="closeService()">
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+
+        <div class="modal-icon">
+            <i class="fa-solid fa-file-circle-check"></i>
+        </div>
+
+        <span>AND SERVICE</span>
+
+        <h2 id="modalServiceName">
+            Service Name
+        </h2>
+
+        <p>
+            Need assistance with this service?
+            Contact APPLY NOW DOCUMENTS (AND) for more information
+            and application support.
+        </p>
+
+        <a id="modalWhatsapp"
+           href="#"
+           target="_blank"
+           class="modal-whatsapp">
+
+            <i class="fa-brands fa-whatsapp"></i>
+            Enquire on WhatsApp
+
+        </a>
+
+    </div>
+
+</div>
+
+
+
+<!-- ================= FLOATING WHATSAPP ================= -->
+
+<a href="https://wa.me/917867976169?text=Hello%20AND%2C%20I%20need%20information%20about%20your%20services."
+   target="_blank"
+   class="floating-whatsapp">
+
+    <i class="fa-brands fa-whatsapp"></i>
+
+</a>
+
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-brand">
+
+            <h2>APPLY NOW DOCUMENTS <span>(AND)</span></h2>
+
+            <p>
+                Your trusted digital help desk for government,
+                documentation and online services.
+            </p>
+
+        </div>
+
+
+        <div class="footer-links">
+
+            <h3>Quick Links</h3>
+
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="document-checker.html">Document Checker</a>
+            <a href="application-status.html">Application Status</a>
+
+        </div>
+
+
+        <div class="footer-contact">
+
+            <h3>Contact Us</h3>
+
+            <p>
+                <i class="fa-solid fa-location-dot"></i>
+                Bus Stop, Edumalai, Tamil Nadu - 621007
+            </p>
+
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                7867976169
+            </p>
+
+            <p>
+                <i class="fa-solid fa-envelope"></i>
+                andsolution2025@gmail.com
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        <p>
+            © 2026 APPLY NOW DOCUMENTS (AND). All Rights Reserved.
+        </p>
+
+        <p>
+            Simple. Fast. Reliable.
+        </p>
+
+    </div>
+
+</footer>
+
+
+
+<!-- Services JavaScript -->
+<script src="services.js"></script>
+
+</body>
+</html>

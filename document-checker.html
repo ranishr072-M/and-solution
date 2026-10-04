@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Document Checker | APPLY NOW DOCUMENTS (AND)</title>
+
+    <link rel="stylesheet" href="document-checker.css">
+</head>
+
+<body>
+
+<!-- ================= NAVBAR ================= -->
+
+<header class="navbar">
+
+    <div class="nav-container">
+
+        <a href="index.html" class="logo">
+            <div class="logo-box">AND</div>
+
+            <div class="logo-text">
+                <strong>APPLY NOW</strong>
+                <span>DOCUMENTS</span>
+            </div>
+        </a>
+
+        <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+
+        <nav class="nav-menu" id="navMenu">
+
+            <a href="index.html">Home</a>
+
+            <a href="services.html">Services</a>
+
+            <a href="document-checker.html" class="active">
+                Documents
+            </a>
+
+           
+
+            <a href="index.html#why-us">
+                Why AND
+            </a>
+
+            <a href="index.html#contact">
+                Contact
+            </a>
+
+        </nav>
+
+        <a
+            href="https://wa.me/917867976169"
+            target="_blank"
+            class="nav-whatsapp"
+        >
+            ◉ WhatsApp
+        </a>
+
+    </div>
+
+</header>
+
+
+<!-- ================= HERO ================= -->
+
+<section class="checker-hero">
+
+    <div class="hero-content">
+
+        <span class="hero-label">
+            DOCUMENT CHECKER
+        </span>
+
+        <h1>
+            Not Sure What Documents
+            <span>You Need?</span>
+        </h1>
+
+        <p>
+            Don't worry. Choose your service and check the commonly
+            required documents before visiting AND.
+        </p>
+
+
+        <!-- ================= SERVICE SELECT ================= -->
+
+        <div class="checker-box">
+
+            <select id="serviceSelect">
+
+                <option value="">
+                    Select a service
+                </option>
+
+                <!-- Government Services -->
+
+                <optgroup label="Government Services">
+
+                    <option value="aadhaar">
+                        Aadhaar Services
+                    </option>
+
+                    <option value="pan">
+                        PAN Card
+                    </option>
+
+                    <option value="passport">
+                        Passport
+                    </option>
+
+                    <option value="driving">
+                        Driving Licence
+                    </option>
+
+                    <option value="voter">
+                        Voter ID
+                    </option>
+
+                    <option value="eshram">
+                        E-Shram Card
+                    </option>
+
+                    <option value="ration">
+                        Ration Card
+                    </option>
+
+                    <option value="fssai">
+                        FSSAI License
+                    </option>
+
+                    <option value="zomato">
+                        Zomato / Swiggy Onboarding
+                    </option>
+
+                </optgroup>
+
+
+                <!-- Certificate Services -->
+
+                <optgroup label="Revenue Certificate Services">
+
+                    <option value="community">
+                        Community Certificate
+                    </option>
+
+                    <option value="income">
+                        Income Certificate
+                    </option>
+
+                    <option value="nativity">
+                        Nativity Certificate
+                    </option>
+
+                    <option value="obc">
+                        OBC Certificate
+                    </option>
+
+                    <option value="patm">
+                        Patm Certificate
+                    </option>
+
+                    <option value="firstgraduate">
+                        First Graduate Certificate
+                    </option>
+
+                    <option value="legalheir">
+                        Legal Heir Certificate
+                    </option>
+
+                    <option value="unmarried">
+                        Unmarried Certificate
+                    </option>
+
+                    <option value="intercaste">
+                        Intercaste Certificate
+                    </option>
+
+                </optgroup>
+
+
+                <!-- Registration -->
+
+                <optgroup label="Registration Services">
+
+                    <option value="marriage">
+                        Marriage Registration
+                    </option>
+
+                    <option value="pattachitta">
+                        Patta / Chitta
+                    </option>
+
+                    <option value="ec">
+                        EC / Villangam
+                    </option>
+
+                    <option value="landsurvey">
+                        Land Surveyor Apply
+                    </option>
+
+                    <option value="pattaname">
+                        Patta Name Transfer
+                    </option>
+
+                </optgroup>
+
+
+                <!-- Exams -->
+
+                <optgroup label="Exam Services">
+
+                    <option value="tnpsc">
+                        TNPSC
+                    </option>
+
+                    <option value="banking">
+                        Banking Exams
+                    </option>
+
+                    <option value="rrb">
+                        RRB
+                    </option>
+
+                    <option value="ssc">
+                        SSC
+                    </option>
+
+                    <option value="neet">
+                        NEET
+                    </option>
+
+                    <option value="jee">
+                        JEE
+                    </option>
+
+                    <option value="upsc">
+                        UPSC
+                    </option>
+
+                    <option value="postoffice">
+                        Post Office Exams
+                    </option>
+
+                </optgroup>
+
+
+                <!-- Education -->
+
+                <optgroup label="Educational Services">
+
+                    <option value="onlineapplication">
+                        Online Application
+                    </option>
+
+                    <option value="printscan">
+                        Print / Scan / Xerox
+                    </option>
+
+                    <option value="resume">
+                        Resume / Typing
+                    </option>
+
+                    <option value="project">
+                        College Project Making
+                    </option>
+
+                    <option value="spiral">
+                        Spiral Binding
+                    </option>
+
+                </optgroup>
+
+
+                <!-- Bills -->
+
+                <optgroup label="Bills & Booking">
+
+                    <option value="prepaid">
+                        Prepaid Recharge
+                    </option>
+
+                    <option value="postpaid">
+                        Postpaid Recharge
+                    </option>
+
+                    <option value="dth">
+                        D2H Dish Recharge
+                    </option>
+
+                    <option value="eb">
+                        EB Bill
+                    </option>
+
+                    <option value="flight">
+                        Flight Ticket Booking
+                    </option>
+
+                    <option value="railway">
+                        Railway Ticket Booking
+                    </option>
+
+                    <option value="bus">
+                        Bus Ticket Booking
+                    </option>
+
+                </optgroup>
+
+
+                <!-- Photo -->
+
+                <optgroup label="Photo Services">
+
+                    <option value="passportphoto">
+                        Passport Size Photo
+                    </option>
+
+                    <option value="halfphoto">
+                        Half Size Photo
+                    </option>
+
+                    <option value="fullphoto">
+                        Full Size Photo
+                    </option>
+
+                    <option value="a4photo">
+                        A4 Size Photo
+                    </option>
+
+                </optgroup>
+
+
+                <!-- Training -->
+
+                <optgroup label="Teaching & Training">
+
+                    <option value="tally">
+                        Tally
+                    </option>
+
+                    <option value="msoffice">
+                        MS Office
+                    </option>
+
+                    <option value="sheets">
+                        Google Sheets
+                    </option>
+
+                </optgroup>
+
+
+                <!-- Tax -->
+
+                <optgroup label="Taxation Services">
+
+                    <option value="gst">
+                        GST Certificate
+                    </option>
+
+                    <option value="incometax">
+                        Income Tax File
+                    </option>
+
+                    <option value="pfclaim">
+                        PF Claim
+                    </option>
+
+                    <option value="pfaccount">
+                        PF Account Open
+                    </option>
+
+                </optgroup>
+
+            </select>
+
+
+            <button onclick="checkDocuments()">
+                Check Documents →
+            </button>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= RESULT ================= -->
+
+<section class="document-result-section">
+
+    <div class="result-container">
+
+        <div id="result">
+
+            <div class="empty-result">
+
+                <div class="empty-icon">
+                    📄
+                </div>
+
+                <h2>
+                    Select a Service
+                </h2>
+
+                <p>
+                    Choose a service above to see the commonly
+                    required documents.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= WHY AND ================= -->
+
+<section class="checker-benefits">
+
+    <div class="section-title">
+
+        <span>
+            WHY AND?
+        </span>
+
+        <h2>
+            More Than a Browsing Center
+        </h2>
+
+        <p>
+            We make your digital and document-related work
+            simple, fast and hassle-free.
+        </p>
+
+    </div>
+
+
+    <div class="benefit-grid">
+
+        <div class="benefit-card">
+            <div>⚡</div>
+            <h3>Quick Service</h3>
+            <p>
+                Get your digital work done quickly and easily.
+            </p>
+        </div>
+
+
+        <div class="benefit-card">
+            <div>📄</div>
+            <h3>Document Guidance</h3>
+            <p>
+                Know what documents are commonly required
+                before starting your application.
+            </p>
+        </div>
+
+
+        <div class="benefit-card">
+            <div>💰</div>
+            <h3>Affordable</h3>
+            <p>
+                Transparent and reasonable service charges.
+            </p>
+        </div>
+
+
+        <div class="benefit-card">
+            <div>🤝</div>
+            <h3>Friendly Support</h3>
+            <p>
+                Need help? Our team is always ready to assist.
+            </p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= NOTE ================= -->
+
+<section class="checker-note">
+
+    <div class="note-box">
+
+        <h3>
+            ⚠️ Important Note
+        </h3>
+
+        <p>
+            The documents shown here are commonly required documents.
+            Exact requirements may vary depending on the application,
+            department and individual circumstances.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CTA ================= -->
+
+<section class="checker-cta">
+
+    <div>
+
+        <span>
+            NEED HELP?
+        </span>
+
+        <h2>
+            Not Sure What Documents You Need?
+        </h2>
+
+        <p>
+            Send us a WhatsApp message and we'll guide you.
+        </p>
+
+        <a
+            href="https://wa.me/917867976169?text=Hello%20AND%2C%20I%20need%20help%20with%20documents."
+            target="_blank"
+        >
+            💬 Ask on WhatsApp
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-brand">
+
+            <h3>
+                APPLY NOW DOCUMENTS
+            </h3>
+
+            <p>
+                Your everyday digital help desk.
+            </p>
+
+        </div>
+
+
+        <div class="footer-contact">
+
+            <p>
+                📍 Bus Stop, Edumalai, Tamil Nadu – 621007
+            </p>
+
+            <p>
+                📞 7867976169
+            </p>
+
+            <p>
+                ✉️ andsolution2025@gmail.com
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <div class="footer-bottom">
+
+        © 2026 APPLY NOW DOCUMENTS (AND). All Rights Reserved.
+
+    </div>
+
+</footer>
+
+
+<!-- ================= FLOATING WHATSAPP ================= -->
+
+<a
+    href="https://wa.me/917867976169"
+    target="_blank"
+    class="floating-whatsapp"
+>
+    ◉
+</a>
+
+
+<script src="document-checker.js"></script>
+
+</body>
+</html>
